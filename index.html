@@ -1,58 +1,68 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Glenn Velupillai's Profile</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"></head>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Nick Pettit | Designer</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
   <body>
-
-    <div class="main-nav">
-        <ul class="nav">
-          <li class="name">Glenn Velupillai</li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Experience</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-          
-        </ul>
-    </div>
-
     <header>
-      <img src="images/me.png" alt="Drawing of Jane Smith" class="profile-image">
-      <h1 class="tag name">Hello, I’m Jane.</h1>
-      <p class="tag location">My home is Portland, Oregon.</p>
-    </header>
-
-    <main class="flex">
-      <div class="card">
-        <h2>Background</h2>
-        <p>I’m an aspiring web designer who loves everything about the web. I've lived in lots of different places and have worked in lots of different jobs. I’m excited to bring my life experience to the process of building fantastic looking websites.</p>
-        <p>I’ve been a professional cook and gardener and am a life-long learner who's always interested in expanding my skills.</p>
-      </div> 
-
-      <div class="card">
-        <h2>Goals</h2>
-        <p>I want to master the process of building web sites and increase my knowledge, skills and abilities in:</p>
-        <ul class="skills">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>Ruby</li>
-          <li>Rails</li>
+      <a href="index.html" id="logo">
+        <h1>Nick Pettit</h1>
+        <h2>Designer</h2>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="selected">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
-        <p>I’d like to work for a web design firm helping clients create an impressive online presence.</p>
-      </div> 
-
-    </main>
-    <footer>
-      <ul>
-        <li><a href="#" class="social twitter">Twitter</a></li>
-        <li><a href="#" class="social linkedin">LinkedIn</a></li>
-        <li><a href="#" class="social github">Github</a></li>
-      </ul>
-      <p class="copyright">Copyright 2018, Glenn Velupillai</p>
-    </footer>
+      </nav>
+    </header>
+    <div id="wrapper">
+      <section>
+        <ul id="gallery">
+          <li>
+            <a href="img/numbers-01.jpg">
+              <img src="img/numbers-01.jpg" alt="">
+              <p>Experimentation with color and texture.</p>
+            </a>
+          </li>
+          <li>
+            <a href="img/numbers-02.jpg">
+              <img src="img/numbers-02.jpg" alt="">
+              <p>Playing with blending modes in Photoshop.</p>
+            </a>
+          </li>
+          <li>
+            <a href="img/numbers-06.jpg">
+              <img src="img/numbers-06.jpg" alt="">
+              <p>Trying to create an 80's style of glows.</p>
+            </a>
+          </li>
+          <li>
+            <a href="img/numbers-09.jpg">
+              <img src="img/numbers-09.jpg" alt="">
+              <p>Drips created using Photoshop brushes.</p>
+            </a>
+          </li>
+          <li>
+            <a href="img/numbers-12.jpg">
+              <img src="img/numbers-12.jpg" alt="">
+              <p>Creating shapes using repetition.</p>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <footer>
+        <a href="http://twitter.com/nickrp"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+        <a href="http://facebook.com/nickpettit"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
+        <p>&copy; 2014 Nick Pettit.</p>
+      </footer>
+    </div>
   </body>
-  </html>
+</html>
